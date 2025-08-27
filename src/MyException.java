@@ -1,9 +1,11 @@
+import java.io.DataInputStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MyException {
     public static void main(String[] args) {
         int x,y,z=0;
+
         Scanner sc = new Scanner(System.in);
         try
         {
