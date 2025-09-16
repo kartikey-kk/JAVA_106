@@ -13,6 +13,8 @@ public class ArrayDeque1 {
         System.out.println(adq.offerFirst("-1"));
         System.out.println(adq.offerLast("3"));
         System.out.println(adq);
-
+        System.out.println(adq.peekFirst());
+        System.out.println(adq.peekLast());
+        
     }
 }
