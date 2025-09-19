@@ -14,7 +14,6 @@ public class HashMap1 {
             String key = sc.next();
             int val = sc.nextInt();
             hm.put(key,val);
-
         }
 
         for(String k: hm.keySet())
