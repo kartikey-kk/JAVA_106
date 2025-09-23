@@ -11,7 +11,7 @@ public class Student implements Comparable<Student>{
         this.age = age;
         this.roll_no = roll_no;
     }
-
+ 
     public int compareTo(Student st)
     {
         if(age==st.age)
